@@ -1,0 +1,8 @@
+module VolumenApp
+{
+   interface Volumen
+   {
+      double volumen(in double radio);
+      oneway void shutdown();
+   };
+};
